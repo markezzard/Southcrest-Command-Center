@@ -1,0 +1,15 @@
+---
+description: Keep Company OS docs current and follow foundation-first agent rules
+alwaysApply: true
+---
+
+# Company OS rules
+
+- Treat `docs/company-os/` as durable project memory for Meridian Land + Southcrest Management work.
+- When the user locks a decision or changes vision, data model, Drive taxonomy, systems, or roadmap, update the relevant files under `docs/company-os/` before finishing.
+- Do not rely on chat history alone for long-term continuity.
+- Default to discussion/spec unless the user asks to implement.
+- Foundation order: Project Master / identity → Drive discipline → email triage (shadow) → clean DB / Procore blend → role agents → personal employee agents.
+- Owner Assistant (Mark only) is an allowed parallel Phase 0.5 track. Follow `docs/company-os/OWNER_ASSISTANT.md`. Read/classify/propose is on; do not send email or write calendars until the charter's trust table grants it.
+- Do not propose client-rooted project folder structures as the primary Drive model.
+- Prefer human-gated, shadow-mode automation over unsupervised outbound actions.
