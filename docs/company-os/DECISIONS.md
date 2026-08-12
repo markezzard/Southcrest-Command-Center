@@ -30,6 +30,13 @@ Append-only log of locked decisions. Newest first within each section is fine; k
 - **Procore rule:** track both working schedule dates for each required item and the contractual deadline date.
 - **Date:** 2026-08-12
 
+### D-021 — Government approvals is a contractual permitting stage
+- **Decision:** Government approvals starts with the written contractual move-forward letter and runs on a contractual timeframe (often ~240 days, variable).
+- **Required outcome:** fully permitted site, including ERP, SDP, off-site permits, FDEP, and any other governing-agency permits.
+- **Work content:** civil engagement/design, architectural + civil drawings, agency/county comment cycles, and permit tracking in Procore.
+- **Agent priority:** high — time-sensitive, complex, needs active guidance/monitoring help.
+- **Date:** 2026-08-12
+
 ### D-001 — Establish Company OS docs as durable memory
 - **Decision:** Store vision, decisions, system map, data model, Drive tree, roadmap, and glossary in `docs/company-os/`.
 - **Why:** Chat threads compress and are not reliable six-month memory.

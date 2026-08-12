@@ -168,7 +168,42 @@ Procore schedules for these items include both:
 Agents and humans must watch both. Hitting an internal work date is not enough if the contractual deadline is missed without an executed amendment.
 
 ### 5) Government approvals → Handover to GC
-TBD
+
+**Stage window:**  
+Starts when the team issues the **written contractual notice/letter to move forward** into government approvals. That letter starts the government-approvals contractual clock.  
+Ends when the site is **fully permitted** — all required permits obtained.
+
+**Nature of the stage:**  
+Like due diligence, this stage has:
+- scheduled work items for each required deliverable/permit path
+- a **contractual timeframe/period**
+
+Typical contractual target is about **240 days**, but it varies and should be set based on how long full permitting is expected to take.
+
+**What happens in this stage:**
+1. Enter via written contractual move-forward letter.
+2. Engage civil engineer and get the site designed.
+3. Begin and drive the permitting process.
+4. Manage architectural drawings, civil drawings, county/agency comments, and engineering back-and-forth.
+5. Obtain all required permits.
+
+**Required permits / approvals package (minimum named set):**
+1. **ERP** — Environmental Resource Permit (state agency)
+2. **SDP** — local Site Development Permit
+3. All required **off-site permits**
+4. **FDEP** permit
+5. Any other permits required by governing agencies
+
+**Exit trigger / completion artifact:**  
+Site fully permitted — required permit package in hand.
+
+**Procore / control notes:**
+- Every major permit path and design/comment cycle needs schedule tracking.
+- Watch both working schedule dates and contractual deadline dates.
+- This stage is high-complexity and time-sensitive; agents should actively help guide status, blockers, comment cycles, and deadline risk.
+
+**Assistance need (owner note):**  
+Government approvals needs a lot of help and careful time management. This is a prime stage for agent monitoring and assistance.
 
 ### 6) Handover to GC → Development
 TBD
