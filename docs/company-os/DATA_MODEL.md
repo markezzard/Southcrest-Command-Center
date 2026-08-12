@@ -1,6 +1,6 @@
 # Data Model (v1 draft)
 
-Status: draft from strategy discussions. Refine with real project examples before implementation lock.
+Status: draft refined with Mason Academy Vanderbilt K-8 deep dive.
 
 ## Core entities
 
@@ -84,6 +84,33 @@ Not fully designed. Direction:
 ### Account / School relationship (future)
 Directional need: long-lived school/district relationship spanning multiple leads and projects across both companies.
 
+### Parcel / assemblage (needed from Mason example)
+One project may include multiple parcels and sellers.
+
+Suggested fields:
+- `parcel_id`
+- `project_id`
+- APN / address
+- seller/contact link
+- contract/LOI status
+- assemblage group / rank
+- notes (wetlands, access, estate parcel, etc.)
+
+### Permit register (needed from Mason example)
+Track major permits/conditions under a project/phase:
+- permit type (ERP, SDP, FDEP offsite, construction, etc.)
+- agency
+- status / issued date
+- document link in Drive
+- related offsite obligations (e.g. traffic signal / intersection)
+
+### Outreach / LOI pipeline (Meridian)
+Not full CRM yet, but Project Master should not pretend land search is a single step. Minimum future support:
+- search boundary notes
+- candidate sites
+- outreach attempts across call/email/letter/text
+- LOI/contract status per parcel
+
 ## Project Master workbook (Sheet v1)
 
 Proposed tabs:
@@ -96,7 +123,10 @@ Proposed tabs:
 
 ## Lifecycle stages (draft enum)
 
-`Prospecting → Preliminary DD → Under Contract → Due Diligence → Entitlements → Permitting → Permitted/Handoff → Site Development → Construction → Closeout → Turnover → Complete`
+Prefer the fuller school-delivery list in `LIFECYCLE_SCHOOL_DELIVERY.md`.
+
+Compact enum for a simple Sheet column:
+`Engagement → Land Search → Outreach → LOI/Contract → Due Diligence → Approvals/Permitting → Handoff → Site Development → Construction → Closeout/Turnover → Complete`
 
 Southcrest-only small jobs may use a shorter subset (e.g. pursuit → active work → closeout).
 

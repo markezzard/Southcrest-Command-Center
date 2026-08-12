@@ -7,6 +7,7 @@ Phase 0 docs foundation is in place. Now pressure-testing the identity model wit
 
 ### Progress notes
 - 2026-08-12: Captured two closed-out full-lifecycle examples (Mater Davenport K-8; Mason Academy Naples).
+- 2026-08-12: Deep-dived Mason Academy Vanderbilt K-8 from pitch → land search/assemblage → DD → permits → construction → turnover; derived lifecycle + org-role docs.
 
 ## Intended build order
 
@@ -55,8 +56,9 @@ Phase 0 docs foundation is in place. Now pressure-testing the identity model wit
 
 ## Next discussion targets
 
-1. Add contrast examples: no-client pursuit + Southcrest-only small job + one active project
-2. Exact lifecycle enums used in practice
+1. Continue Mason deep dive where owner wants more detail (parcel IDs, exact staffing, system locations of records)
+2. Lock v1 Project Master Sheet tabs/columns from Mason-derived model
 3. Project code format
 4. Whether to create the Drive `Company_OS_AI` root + Project Master Sheet now
-5. Fill missing fields on Mater/Mason (closeout years, legal client names, Procore/Meridian IDs)
+5. Later contrast examples: no-client pursuit; Southcrest-only small job; active project
+

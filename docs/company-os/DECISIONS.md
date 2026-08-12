@@ -10,6 +10,12 @@ Append-only log of locked decisions. Newest first within each section is fine; k
 - **Implication:** Parent project + at least two company-owned phases is the default for these jobs; superintendent may change over time, so staffing needs primary and/or history.
 - **Date:** 2026-08-12
 
+### D-018 — Mason Vanderbilt is the deep-dive reference project
+- **Decision:** Use Mason Academy Vanderbilt K-8 as the primary end-to-end reference for lifecycle, assemblage, permits, and org roles.
+- **Why:** Owner provided a full narrative from pitch through turnover (~4 years), including four-parcel Vanderbilt Road assemblage and major offsite/wetland complexity.
+- **Implication:** Project Master must support multi-parcel contracts under one parent project; lifecycle must include outreach, LOI/contract, DD, approvals package, then Southcrest site/building/turnover.
+- **Date:** 2026-08-12
+
 ### D-001 — Establish Company OS docs as durable memory
 - **Decision:** Store vision, decisions, system map, data model, Drive tree, roadmap, and glossary in `docs/company-os/`.
 - **Why:** Chat threads compress and are not reliable six-month memory.

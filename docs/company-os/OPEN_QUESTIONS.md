@@ -13,5 +13,9 @@ Track unresolved design questions here. Move answers into `DECISIONS.md` when lo
 9. Where should the live Project Master Sheet reside under Drive (`/01_Companies/Shared/Project_Master`)?
 10. Confirm exact name/path for the AI control root (`Company_OS_AI` or preferred alternative).
 11. Mater Davenport K-8: closeout year, legal client entity vs Academica network name, Procore/Meridian IDs, Henry’s exact role title window.
-12. Mason Academy: confirm Southcrest built it; legal name (Mason Academy vs Mason Vanderbilt Academy); closeout year; Brad tenure vs other supers; Procore/Meridian IDs.
+12. Mason Academy: legal contracting entities; closeout/turnover dates; Procore/Meridian IDs; exact construction staffing history (PM/superintendent by period).
 13. For closed-out jobs, do we keep one primary superintendent field only, or require staffing history from day one?
+14. Confirm financing firm spelling/name (Stiefel vs Stifel) and Ike’s full name.
+15. Confirm whether spoken “middles” in construction process means submittals.
+16. Should the four Vanderbilt parcels be first-class Parcel rows in v1 Sheet, or notes until DB phase?
+17. Where do Mason land-search files, contracts, permit sets, and construction records live today (Drive folders / Procore / Meridian App / email)?
