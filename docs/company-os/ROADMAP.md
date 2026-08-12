@@ -10,6 +10,7 @@ Phase 0 docs foundation is in place. Now pressure-testing the identity model wit
 - 2026-08-12: Deep-dived Mason Academy Vanderbilt K-8 from pitch → land search/assemblage → DD → permits → construction → turnover; derived lifecycle + org-role docs.
 - 2026-08-12: Defined Prospecting exit gate (draft LOI sent; seller interest/terms, site look, fit test, feasibility, internal sign-off).
 - 2026-08-12: Defined LOI exit gate (executed LOI signed by buyer and seller).
+- 2026-08-12: Defined Contract/PSA exit gate (fully executed purchase and sale agreement after form send + redline negotiation).
 
 ## Intended build order
 

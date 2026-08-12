@@ -139,7 +139,6 @@ Project Master should store at least:
 ## Open work
 
 Define remaining stage-exit requirements for:
-3. Contract
 4. Due diligence
 5. Government approvals
 6. Handover to GC

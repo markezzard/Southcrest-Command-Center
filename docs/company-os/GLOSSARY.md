@@ -12,6 +12,8 @@
 | **Lead** | BD pursuit/relationship work not yet (or not necessarily) a Project |
 | **Account / School relationship** | Future long-lived relationship object spanning leads and projects |
 | **Handoff** | Transition from Meridian permitted package into Southcrest execution |
+| **LOI** | Letter of Intent — outline of deal terms; stage ends when buyer and seller have fully executed it |
+| **PSA / Contract** | Purchase and Sale Agreement — preferred-form contract negotiated from LOI terms; stage ends when fully executed |
 | **Shadow mode** | Agent proposes actions for human review without autonomous external side effects |
 | **Clean DB** | Future blended operational database across identity, docs index, Procore, email facts |
 | **Hub thread** | Pinned strategy conversation for direction and roadmap |
