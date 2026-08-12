@@ -59,7 +59,60 @@ Company/project agents are not just note-takers. Their job includes:
 - surfacing blockers early
 - assisting handoff quality at stage 6 (Handover to GC)
 
-Detailed per-stage artifact checklists still need to be laid out with ownership.
+Detailed per-stage artifact checklists are being defined below with ownership.
+
+## Stage gates (exit requirements)
+
+### 1) Prospecting → LOI
+
+**Exit trigger / completion artifact:**  
+Draft LOI has been sent out to the client.
+
+**Required before that can happen:**
+1. Talk with the seller and get verbal confirmation they are interested in selling.
+2. Align on price and terms enough to proceed — either agreed, or seller at least understands the price/terms being contemplated.
+3. Seller asks for / agrees to receive an LOI (“send us an LOI”).
+4. Property has been looked at.
+5. Fit test has been run.
+6. Some feasibility reports have been run.
+7. Internal sign-off that this is a site we want to place under an LOI.
+
+**Agent monitoring implications:**
+- Track seller interest, price/terms alignment, site visit, fit test, feasibility work, and internal LOI sign-off.
+- Prospecting is not complete merely because a site is interesting.
+- Prospecting completes when the draft LOI is actually sent.
+
+> Clarification pending if needed: in land deals the LOI often goes to the seller; owner described the completion event as sending the draft LOI to the “client.” Confirm whether that means seller, school client, or both.
+
+### 2) LOI → Contract
+TBD
+
+### 3) Contract → Due diligence
+TBD
+
+### 4) Due diligence → Government approvals
+TBD
+
+### 5) Government approvals → Handover to GC
+TBD
+
+### 6) Handover to GC → Development
+TBD
+
+### 7) Development → Vertical construction
+TBD
+
+### 8) Vertical construction → Final inspections and punch-out
+TBD
+
+### 9) Final inspections and punch-out → Client turnover
+TBD
+
+### 10) Client turnover → Warranty
+TBD
+
+### 11) Warranty → Complete / closed
+TBD
 
 ## Relationship to Project Master
 
@@ -70,8 +123,7 @@ Project Master should store at least:
 
 ## Open work
 
-Sit down stage by stage and define the required exit artifacts for:
-1. Prospecting
+Define remaining stage-exit requirements for:
 2. LOI
 3. Contract
 4. Due diligence

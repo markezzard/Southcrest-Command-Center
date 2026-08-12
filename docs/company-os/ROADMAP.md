@@ -8,6 +8,7 @@ Phase 0 docs foundation is in place. Now pressure-testing the identity model wit
 ### Progress notes
 - 2026-08-12: Captured two closed-out full-lifecycle examples (Mater Davenport K-8; Mason Academy Naples).
 - 2026-08-12: Deep-dived Mason Academy Vanderbilt K-8 from pitch → land search/assemblage → DD → permits → construction → turnover; derived lifecycle + org-role docs.
+- 2026-08-12: Defined Prospecting exit gate (draft LOI sent; seller interest/terms, site look, fit test, feasibility, internal sign-off).
 
 ## Intended build order
 
