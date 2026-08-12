@@ -15,6 +15,7 @@ Chat threads are working sessions. These docs are the source of truth that futur
 | [DRIVE_TREE.md](./DRIVE_TREE.md) | Google Drive taxonomy |
 | [ROADMAP.md](./ROADMAP.md) | Build order and current phase |
 | [GLOSSARY.md](./GLOSSARY.md) | Shared terms |
+| [PROJECT_EXAMPLES.md](./PROJECT_EXAMPLES.md) | Real projects used to pressure-test the model |
 | [OPEN_QUESTIONS.md](./OPEN_QUESTIONS.md) | Unresolved items to pressure-test later |
 
 ## Update rule

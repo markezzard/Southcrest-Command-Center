@@ -4,6 +4,12 @@ Append-only log of locked decisions. Newest first within each section is fine; k
 
 ## Process and memory
 
+### D-017 — Classic school delivery pattern confirmed with real examples
+- **Decision:** Treat “Meridian finds land → approvals/permits → Southcrest builds → closeout” as a primary project pattern in Project Master.
+- **Evidence:** Mater Davenport K-8 (Academica) and Mason Academy (Naples, FL).
+- **Implication:** Parent project + at least two company-owned phases is the default for these jobs; superintendent may change over time, so staffing needs primary and/or history.
+- **Date:** 2026-08-12
+
 ### D-001 — Establish Company OS docs as durable memory
 - **Decision:** Store vision, decisions, system map, data model, Drive tree, roadmap, and glossary in `docs/company-os/`.
 - **Why:** Chat threads compress and are not reliable six-month memory.

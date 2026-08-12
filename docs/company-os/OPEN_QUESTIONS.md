@@ -12,3 +12,6 @@ Track unresolved design questions here. Move answers into `DECISIONS.md` when lo
 8. Which email classes are never auto-handled (legal, LOI, municipal/political, client-facing, etc.)?
 9. Where should the live Project Master Sheet reside under Drive (`/01_Companies/Shared/Project_Master`)?
 10. Confirm exact name/path for the AI control root (`Company_OS_AI` or preferred alternative).
+11. Mater Davenport K-8: closeout year, legal client entity vs Academica network name, Procore/Meridian IDs, Henry’s exact role title window.
+12. Mason Academy: confirm Southcrest built it; legal name (Mason Academy vs Mason Vanderbilt Academy); closeout year; Brad tenure vs other supers; Procore/Meridian IDs.
+13. For closed-out jobs, do we keep one primary superintendent field only, or require staffing history from day one?

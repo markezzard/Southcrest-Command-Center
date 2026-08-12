@@ -2,8 +2,11 @@
 
 ## Current phase
 
-**Phase 0 — Company OS foundation (docs + operating model)**  
-In progress. Capture vision, decisions, systems, data model, Drive tree, and agent working agreements.
+**Phase 1 — Project Master identity (starting)**  
+Phase 0 docs foundation is in place. Now pressure-testing the identity model with real projects, then create the Project Master Sheet and Drive template.
+
+### Progress notes
+- 2026-08-12: Captured two closed-out full-lifecycle examples (Mater Davenport K-8; Mason Academy Naples).
 
 ## Intended build order
 
@@ -52,8 +55,8 @@ In progress. Capture vision, decisions, systems, data model, Drive tree, and age
 
 ## Next discussion targets
 
-1. Real project examples to pressure-test parent/phase + no-client cases
+1. Add contrast examples: no-client pursuit + Southcrest-only small job + one active project
 2. Exact lifecycle enums used in practice
 3. Project code format
-4. Whether to create the Drive `Company_OS_AI` root now
-5. Systems Analyst interview outline
+4. Whether to create the Drive `Company_OS_AI` root + Project Master Sheet now
+5. Fill missing fields on Mater/Mason (closeout years, legal client names, Procore/Meridian IDs)
