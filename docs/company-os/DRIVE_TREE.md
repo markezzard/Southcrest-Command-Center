@@ -97,3 +97,9 @@ Avoid putting current client name in the folder title when client churn is likel
 
 - Immature BD outreach can live in Shared BD / company intake areas.
 - Create a `/02_Projects` record when a site/pursuit needs stable identity for docs, aliases, or email matching.
+
+## Working locations (created before Company_OS_AI exists)
+
+| What | Drive | Notes |
+|---|---|---|
+| Owner Assistant folder | [folder](https://drive.google.com/drive/folders/1pmodcGdkyPdTibTalkqzM2id4HOnrv-_) (`1pmodcGdkyPdTibTalkqzM2id4HOnrv-_`) | Dated daily briefs + tasks. Move under `Company_OS_AI` later if that root is created. |

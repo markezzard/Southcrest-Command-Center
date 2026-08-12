@@ -15,6 +15,7 @@ Chat threads are working sessions. These docs are the source of truth that futur
 | [DRIVE_TREE.md](./DRIVE_TREE.md) | Google Drive taxonomy |
 | [ROADMAP.md](./ROADMAP.md) | Build order and current phase |
 | [OWNER_ASSISTANT.md](./OWNER_ASSISTANT.md) | Mark's personal assistant charter (Phase 0.5) |
+| [OWNER_ASSISTANT_MORNING_BRIEF.md](./OWNER_ASSISTANT_MORNING_BRIEF.md) | Prompt for the 6:00 AM ET Cursor Automation |
 | [GLOSSARY.md](./GLOSSARY.md) | Shared terms |
 | [OPEN_QUESTIONS.md](./OPEN_QUESTIONS.md) | Unresolved items to pressure-test later |
 

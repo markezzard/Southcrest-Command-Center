@@ -5,15 +5,16 @@
 **Phase 0 — Company OS foundation (docs + operating model)**  
 In progress. Capture vision, decisions, systems, data model, Drive tree, and agent working agreements.
 
-**Phase 0.5 — Owner Assistant charter (parallel, Mark only)**  
-In progress as a docs/charter track. Daily brief + email/calendar/tasks design. **No live automations until Mark says so.** Does not replace Phase 1–3 for company-wide mail.
+**Phase 0.5 — Owner Assistant (parallel, Mark only)**  
+Charter locked. Read/classify/propose loop approved. Blocked on Calendar MCP auth, Gmail MCP, and Mark creating the 6:00 AM ET Cursor Automation. Calendar writes and sending mail are still off.
 
 ## Intended build order
 
 ### Phase 0.5 — Owner Assistant (parallel; does not block Phase 1)
-- Charter: name/tone, daily loop, email + calendar + tasks, hard limits (`OWNER_ASSISTANT.md`)
-- Later, only when Mark directs implementation: Calendar auth → task SoT → email access path → brief/propose mode
-- Stay drafts-only until each capability is granted in the charter
+- Charter locked (`OWNER_ASSISTANT.md`); morning prompt in `OWNER_ASSISTANT_MORNING_BRIEF.md`
+- 6:00 AM ET Cursor Automation (Mark creates; Private; Calendar + Gmail + Drive)
+- Drive folder + Daily Brief / Tasks docs
+- Calendar read-only until trust grant; never send email until granted
 - Do not treat this as deploying employee agents
 
 ### Phase 1 — Project Master identity
@@ -58,7 +59,7 @@ In progress as a docs/charter track. Daily brief + email/calendar/tasks design. 
 - Fully autonomous agent spawning into production
 - Personal employee agents before clean identity + data spine
 - Replacing Procore schedules with a homegrown scheduler
-- Live Owner Assistant automations (calendar writes, sending mail, unattended loops) until Mark says so
+- Unattended Owner Assistant calendar writes or sending mail until granted in `OWNER_ASSISTANT.md`
 
 ## Next discussion targets
 
@@ -67,4 +68,3 @@ In progress as a docs/charter track. Daily brief + email/calendar/tasks design. 
 3. Project code format
 4. Whether to create the Drive `Company_OS_AI` root now
 5. Systems Analyst interview outline
-6. Lock Owner Assistant open items (name/tone, task SoT, email path, calendars in scope)

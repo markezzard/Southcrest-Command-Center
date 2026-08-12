@@ -37,13 +37,33 @@ Append-only log of locked decisions. Newest first within each section is fine; k
 - **Date:** 2026-08-12
 
 ### D-021 — Owner Assistant stays drafts-only until a capability is granted in the charter
-- **Decision:** OA may read, classify, and propose. It may not send email, mutate calendar, file Drive, write Meridian App/Procore, or spawn agents until Mark grants that capability in `OWNER_ASSISTANT.md`.
-- **Why:** Same as D-005. Trust is earned per action type.
+- **Decision:** OA may read, classify, and propose. It may not send email, mutate calendar, file Drive project trees, write Meridian App/Procore, or spawn agents until Mark grants that capability in `OWNER_ASSISTANT.md`. Read-loop implementation is on (2026-08-12). Calendar writes stay off until recommendations look right, then may run without per-item review after a written grant.
+- **Why:** Same as D-005. Trust is earned per action type. Mark asked to implement the read loop and earn calendar-write trust next.
 - **Date:** 2026-08-12
 
 ### D-022 — Keep Owner Assistant, company email triage, and executive briefing as three layers
 - **Decision:** (1) Owner Assistant = Mark's personal EA (inbox attention, calendar, owner-level tasks). (2) Company Email Triage = Phase 3 shared agent after Project Master, shadow mode, filing + provenance. (3) Executive / role agent = Phase 6 company rollup. OA may later feed (3); it must not impersonate (2).
 - **Why:** Mixing them either delays the personal loop or skips identity work required for company filing.
+- **Date:** 2026-08-12
+
+### D-024 — Owner Assistant identity, tone, and attention filter
+- **Decision:** Name **Owner Assistant** / **OA**, neutral persona. Tone: direct, no fluff. Attention filter: cash → clients → permits → people → schedule risk. Timezone: America/New_York.
+- **Why:** Mark said lock the draft defaults.
+- **Date:** 2026-08-12
+
+### D-025 — Calendars: work and personal, read-only until trust
+- **Decision:** OA reads **both** work and personal calendars. v1 is read-only. After Mark sees correct recommendations, unattended calendar writes may be granted in the charter without per-item review.
+- **Why:** Mark, 2026-08-12.
+- **Date:** 2026-08-12
+
+### D-026 — 6:00 AM ET scheduled brief in Cursor; Gmail is a source not the chat
+- **Decision:** Daily brief at **6:00 AM America/New_York** via a Cursor Automation (Private, runs as Mark). Conversation stays in the Owner Assistant Cursor thread. Gmail is read-only input. OA does not live in Gmail and does not send. A dated Google Doc in the Owner Assistant Drive folder is the phone-readable copy.
+- **Why:** Mark asked where the interaction happens and asked to implement a 6:00 AM brief.
+- **Date:** 2026-08-12
+
+### D-027 — Owner Assistant task system of record
+- **Decision:** v1 tasks live in Google Doc `Owner Assistant — Tasks`. Intended SoT is Google Tasks once that access exists.
+- **Why:** Drive is already connected; Google Tasks is not.
 - **Date:** 2026-08-12
 
 ## Identity and data foundation
@@ -96,6 +116,6 @@ Append-only log of locked decisions. Newest first within each section is fine; k
 - **Date:** 2026-08-12
 
 ### D-102 — Employee-copy mail as a sensor (Owner Assistant)
-- **Direction:** OA should split mail **to Mark** from **employee copies**. Copies default to delegated/noise; promote only on the attention filter or hard classes (legal, LOI, money, municipal/political, client-facing from Mark).
-- **Not decided yet:** how aggressive a daily digest of active jobs from copies should be.
+- **Decision:** Mail to/from Mark is the default brief pool. Copies of employee sent/received mail that land in Mark's inbox are skipped unless cash, clients, permits, people, schedule risk, legal, LOI, or municipal/political means he must step in.
+- **Why:** Otherwise the 6:00 AM brief is unusable. Mark asked what "employee copy email" meant; this is the locked plain-language rule.
 - **Date:** 2026-08-12

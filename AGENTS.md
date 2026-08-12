@@ -39,4 +39,4 @@ Also read any topic-specific docs you are touching (`DATA_MODEL.md`, `DRIVE_TREE
 
 ## Current phase
 
-Phase 0: establish and maintain Company OS documentation. Phase 0.5: Owner Assistant charter (docs only until Mark asks to implement). Implementation of Project Master and live integrations comes next only when the user directs it.
+Phase 0: establish and maintain Company OS documentation. Phase 0.5: Owner Assistant read/classify/propose loop (6:00 AM ET brief). Calendar writes and sending mail stay off until granted in `OWNER_ASSISTANT.md`.

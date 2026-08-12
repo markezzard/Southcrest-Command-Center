@@ -18,4 +18,5 @@
 | **Workstream thread/agent** | Focused chat/agent run for one topic or deliverable |
 | **Owner Assistant (OA)** | Mark's personal assistant (calendar, his inbox attention, owner-level tasks). Phase 0.5. Not company email triage and not employee agents. |
 | **Owner exception** | Employee-copy email promoted onto Mark's brief because it hits cash/clients/permits/people/schedule risk or a hard class (legal, LOI, money, political) |
+| **Employee copy** | Mail in Mark's inbox only because he receives copies of employee sent/received email — not mail addressed to him |
 | **Executive / role agent** | Future Phase 6 company rollup (stalled deals, permit risk, slips). Related to OA; not the same charter. |

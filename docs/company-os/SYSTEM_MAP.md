@@ -11,7 +11,7 @@
 | **Procore** | Schedules and project tracking from prospecting/preliminary DD through turnover | Long-lifecycle operational schedule spine |
 | **Meridian App (custom)** | Custom tasks and project management for Meridian work | BD/deal/task layer; identity consumer/producer |
 | **This repo (`Southcrest-Command-Center`)** | Early home for Company OS | Agent instructions, apps, integrations, clean DB over time |
-| **Owner Assistant (planned)** | Not live | Mark's personal brief/propose loop on Calendar + Gmail + owner tasks |
+| **Owner Assistant** | Live read-loop approved; Calendar/Gmail MCP not connected yet | Mark's 6:00 AM ET brief/propose loop |
 
 ## Source-of-truth leanings (v1)
 
@@ -23,7 +23,7 @@
 | Construction/site schedules | Procore |
 | Meridian tasks / BD workflow | Meridian App |
 | Agent operating brain | Git docs in `docs/company-os/` |
-| Mark's personal attention / owner tasks | Owner Assistant brief (v0); Google Tasks proposed for v1 — not locked |
+| Mark's personal attention / owner tasks | Owner Assistant brief + Google Doc `Owner Assistant — Tasks` (Google Tasks intended later) |
 
 ## Join keys
 
@@ -59,11 +59,12 @@ Drive
   ↔ Project folders
   ↔ Project Master folder IDs
 
-Owner Assistant (Mark only; not live)
-  ← Google Calendar (read)
-  ← Gmail (Mark's inbox, including employee copies as a sensor)
-  → Daily brief + drafts for approval
-  → Owner-level tasks (SoT TBD)
+Owner Assistant (Mark only)
+  ← Google Calendar (read; work + personal; MCP auth pending)
+  ← Gmail (read; MCP connect pending)
+  → 6:00 AM ET Cursor Automation + this thread
+  → Dated Daily Brief Google Docs
+  → Owner-level tasks Google Doc
 ```
 
 ## Companies and shared functions
