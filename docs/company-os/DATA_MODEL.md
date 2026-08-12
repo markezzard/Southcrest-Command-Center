@@ -121,14 +121,25 @@ Proposed tabs:
 5. `Client_History`
 6. `Lists` (enums)
 
-## Lifecycle stages (draft enum)
+## Lifecycle stages (authoritative enum)
 
-Prefer the fuller school-delivery list in `LIFECYCLE_SCHOOL_DELIVERY.md`.
+Use owner-defined stages from `LIFECYCLE_SCHOOL_DELIVERY.md`:
 
-Compact enum for a simple Sheet column:
-`Engagement → Land Search → Outreach → LOI/Contract → Due Diligence → Approvals/Permitting → Handoff → Site Development → Construction → Closeout/Turnover → Complete`
+1. Prospecting  
+2. LOI  
+3. Contract  
+4. Due diligence  
+5. Government approvals  
+6. Handover to GC  
+7. Development  
+8. Vertical construction  
+9. Final inspections and punch-out  
+10. Client turnover  
+11. Warranty  
 
-Southcrest-only small jobs may use a shorter subset (e.g. pursuit → active work → closeout).
+Each stage has required exit artifacts before advancement. Procore monitors the full lifecycle schedule.
+
+Southcrest-only small jobs may use a shorter subset later; do not invent a different full-school sequence.
 
 ## Matching rules for future email triage
 

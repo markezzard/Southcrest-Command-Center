@@ -16,6 +16,13 @@ Append-only log of locked decisions. Newest first within each section is fine; k
 - **Implication:** Project Master must support multi-parcel contracts under one parent project; lifecycle must include outreach, LOI/contract, DD, approvals package, then Southcrest site/building/turnover.
 - **Date:** 2026-08-12
 
+### D-019 — Official lifecycle stages + gate artifacts + Procore spine
+- **Decision:** Full school projects use this stage sequence: Prospecting → LOI → Contract → Due diligence → Government approvals → Handover to GC → Development → Vertical construction → Final inspections and punch-out → Client turnover → Warranty.
+- **Gate rule:** Each stage has required artifacts/documents/reports/permits (or equivalent) that must be completed before advancing.
+- **System rule:** Procore schedule monitors the project across this entire lifecycle.
+- **Agent rule:** Agents should monitor stage progress and help responsible people obtain the required items to advance stages.
+- **Date:** 2026-08-12
+
 ### D-001 — Establish Company OS docs as durable memory
 - **Decision:** Store vision, decisions, system map, data model, Drive tree, roadmap, and glossary in `docs/company-os/`.
 - **Why:** Chat threads compress and are not reliable six-month memory.

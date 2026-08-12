@@ -1,34 +1,84 @@
-# Lifecycle — Full School Delivery (from Mason Vanderbilt deep dive)
+# Lifecycle — School Delivery Stages (owner-defined)
 
-Draft lifecycle derived from the Mason Academy Vanderbilt K-8 narrative. Use as the default stage model for Meridian → Southcrest new campus projects.
+This is the **authoritative lifecycle stage list** for full Meridian → Southcrest school projects, as defined by ownership during the Mason Vanderbilt deep dive.
 
-## Stage list
+Earlier draft stage lists in this folder should defer to this document.
 
-| # | Stage | Typical owner | What happens |
+## Official stage sequence
+
+| # | Stage | Typical company focus | Notes |
 |---|---|---|---|
-| 1 | Client engagement / pitch | Meridian (+ shared BD) | Meet board/exec/finance; present Meridian + Southcrest delivery model; agreement to proceed |
-| 2 | Search boundary definition | Meridian | School defines geographic area of interest |
-| 3 | Candidate pull & screening | Meridian | Pull permitted-by-right / zoning-eligible sites; screen traffic, wetlands, development conditions |
-| 4 | Target selection | Meridian | Choose single-parcel and/or assemblage targets |
-| 5 | Outreach | Meridian | Calls, emails, letters, texts to landowners |
-| 6 | LOI / contract negotiation | Meridian | Structure deals (DD, approvals, closing); execute contracts; assemblage may mean multiple parallel contracts |
-| 7 | Due diligence | Meridian | Formal DD period (Mason example: ~90 days) |
-| 8 | Government approvals & permitting | Meridian | Entitlements/permits until package is in hand (ERP, SDP, FDEP, offsite, etc.) |
-| 9 | Handoff to construction | Bridge | Meridian permitted package becomes Southcrest executable job |
-| 10 | Site development | Southcrest | Site work, offsite improvements, wetland/mitigation work as required |
-| 11 | Building construction | Southcrest | Buyout/bidding, RFIs, submittals, construction permits, daily logs, schedule, pay apps |
-| 12 | Closeout / turnover | Southcrest | Complete and turn over to client |
+| 1 | **Prospecting** | Meridian | Land search, outreach, targeting, early client/site pursuit |
+| 2 | **LOI** | Meridian | Letter of intent / deal structuring with land sellers |
+| 3 | **Contract** | Meridian | Purchase/option contracts executed (may be multiple parcels) |
+| 4 | **Due diligence** | Meridian | Formal DD period and investigations |
+| 5 | **Government approvals** | Meridian | Entitlements/permits package (ERP, SDP, FDEP, offsite, etc.) |
+| 6 | **Handover to GC** | Bridge | Transfer executable permitted project to GC — preferably Southcrest |
+| 7 | **Development** | Southcrest | Site development / sitework |
+| 8 | **Vertical construction** | Southcrest | Building construction |
+| 9 | **Final inspections and punch-out** | Southcrest | Inspections, punch list, completion cleanup |
+| 10 | **Client turnover** | Southcrest | Deliver/turn over to client |
+| 11 | **Warranty** | Southcrest | Post-turnover warranty period/obligations |
 
-## Important nuances from Mason
+> Numbering note: Prospecting is stage 1. LOI is stage 2. The list continues through Warranty.
 
-- Zoning strategy can expand the candidate universe (e.g. residential assemblage opportunity in Collier County).
-- One campus can require multiple land contracts that must stay synchronized.
-- Approvals may include major offsite public-work obligations (traffic signal / intersection).
-- Wetland/environmental constraints can dominate schedule and risk.
-- Construction duration may be much shorter than the land/approvals journey; overall project still spans years (Mason ~4 years total; construction ~11 months).
+## Gate rule (critical)
 
-## v1 Project Master usage
+**Each stage has required artifacts** — documents, reports, permits, approvals, or other proof — that must be accomplished before the project can move to the next stage.
 
-- Store current `lifecycle_stage` on the parent project.
-- Optionally store phase rows for major company-owned segments.
-- Keep this full stage list available for email classification and task generation even if Sheet rows are fewer.
+Examples of gate artifact types (not yet fully enumerated per stage):
+- reports
+- contracts / LOIs
+- diligence deliverables
+- permits / agency approvals
+- handover package items
+- inspection sign-offs
+- turnover documents
+- warranty setup / closeout records
+
+Until those stage-exit requirements are satisfied, the project should not be treated as advanced.
+
+## Procore role
+
+- Procore contains the schedule that monitors the project **through this whole lifecycle**.
+- Lifecycle is not only a Meridian concept or only a construction concept — it is one continuous staged journey.
+- Future agents should use Procore schedule + stage gates together:
+  1. know current lifecycle stage
+  2. know required artifacts to exit that stage
+  3. monitor schedule/email/docs for missing or at-risk items
+  4. assist the responsible people in getting those items done
+  5. help the project advance cleanly to the next stage
+
+## Agent responsibility (directional)
+
+Company/project agents are not just note-takers. Their job includes:
+
+- monitoring lifecycle progress
+- knowing what “done” means for the current stage
+- helping gather/complete the required stage artifacts
+- surfacing blockers early
+- assisting handoff quality at stage 6 (Handover to GC)
+
+Detailed per-stage artifact checklists still need to be laid out with ownership.
+
+## Relationship to Project Master
+
+Project Master should store at least:
+- `lifecycle_stage` using this enum
+- links to Procore schedule/project IDs
+- eventual checklist/artifact status per stage (Sheet v1 may start simple; DB can deepen later)
+
+## Open work
+
+Sit down stage by stage and define the required exit artifacts for:
+1. Prospecting
+2. LOI
+3. Contract
+4. Due diligence
+5. Government approvals
+6. Handover to GC
+7. Development
+8. Vertical construction
+9. Final inspections and punch-out
+10. Client turnover
+11. Warranty

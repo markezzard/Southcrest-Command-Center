@@ -114,17 +114,20 @@ This is the primary worked example for Project Master design.
 - Four parcels were one school deal / one campus outcome.
 - The four contracts are **site-control instruments under one project**, not four separate schools.
 
-**Suggested phases**
-1. Pursuit / pitch / engagement (Meridian)
-2. Land search + outreach + targeting (Meridian)
-3. LOI / contract / site control — including 4-parcel assemblage (Meridian)
-4. Due diligence (Meridian)
-5. Government approvals & permitting (Meridian)
-6. Site development (Southcrest)
-7. Building construction (Southcrest)
-8. Closeout / turnover (Southcrest; client occupancy)
+**Lifecycle stages traveled (owner-defined official list)**
+1. Prospecting  
+2. LOI  
+3. Contract  
+4. Due diligence  
+5. Government approvals  
+6. Handover to GC (Southcrest)  
+7. Development  
+8. Vertical construction  
+9. Final inspections and punch-out  
+10. Client turnover  
+11. Warranty  
 
-For v1 Sheet simplicity, phases may be collapsed into fewer rows (e.g. Land+Entitlements, Site Development, Building), but the stage list above should remain in lifecycle enums because email/docs will land in all of them.
+Mason’s story populates all of these. Stage-exit artifacts still need to be enumerated one by one.
 
 **New records the model must support because of this example**
 - Multiple parcels / assemblage under one project

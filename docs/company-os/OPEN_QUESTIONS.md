@@ -19,3 +19,6 @@ Track unresolved design questions here. Move answers into `DECISIONS.md` when lo
 15. Confirm whether spoken “middles” in construction process means submittals.
 16. Should the four Vanderbilt parcels be first-class Parcel rows in v1 Sheet, or notes until DB phase?
 17. Where do Mason land-search files, contracts, permit sets, and construction records live today (Drive folders / Procore / Meridian App / email)?
+18. What are the required exit artifacts for each official lifecycle stage (Prospecting through Warranty)?
+19. Who is the accountable human owner for each stage gate on a typical project?
+20. In Procore today, are these lifecycle stages already explicit schedule milestones/phases, or do we need to standardize that structure?

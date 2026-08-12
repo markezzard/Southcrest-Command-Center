@@ -56,9 +56,9 @@ Phase 0 docs foundation is in place. Now pressure-testing the identity model wit
 
 ## Next discussion targets
 
-1. Continue Mason deep dive where owner wants more detail (parcel IDs, exact staffing, system locations of records)
-2. Lock v1 Project Master Sheet tabs/columns from Mason-derived model
-3. Project code format
-4. Whether to create the Drive `Company_OS_AI` root + Project Master Sheet now
-5. Later contrast examples: no-client pursuit; Southcrest-only small job; active project
+1. Continue Mason deep dive: define **required exit artifacts per lifecycle stage**
+2. Map those stage gates to Procore schedule monitoring responsibilities
+3. Lock v1 Project Master Sheet tabs/columns from Mason-derived model
+4. Project code format
+5. Whether to create the Drive `Company_OS_AI` root + Project Master Sheet now
 
