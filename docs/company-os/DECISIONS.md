@@ -4,6 +4,39 @@ Append-only log of locked decisions. Newest first within each section is fine; k
 
 ## Process and memory
 
+### D-017 — Classic school delivery pattern confirmed with real examples
+- **Decision:** Treat “Meridian finds land → approvals/permits → Southcrest builds → closeout” as a primary project pattern in Project Master.
+- **Evidence:** Mater Davenport K-8 (Academica) and Mason Academy (Naples, FL).
+- **Implication:** Parent project + at least two company-owned phases is the default for these jobs; superintendent may change over time, so staffing needs primary and/or history.
+- **Date:** 2026-08-12
+
+### D-018 — Mason Vanderbilt is the deep-dive reference project
+- **Decision:** Use Mason Academy Vanderbilt K-8 as the primary end-to-end reference for lifecycle, assemblage, permits, and org roles.
+- **Why:** Owner provided a full narrative from pitch through turnover (~4 years), including four-parcel Vanderbilt Road assemblage and major offsite/wetland complexity.
+- **Implication:** Project Master must support multi-parcel contracts under one parent project; lifecycle must include outreach, LOI/contract, DD, approvals package, then Southcrest site/building/turnover.
+- **Date:** 2026-08-12
+
+### D-019 — Official lifecycle stages + gate artifacts + Procore spine
+- **Decision:** Full school projects use this stage sequence: Prospecting → LOI → Contract → Due diligence → Government approvals → Handover to GC → Development → Vertical construction → Final inspections and punch-out → Client turnover → Warranty.
+- **Gate rule:** Each stage has required artifacts/documents/reports/permits (or equivalent) that must be completed before advancing.
+- **System rule:** Procore schedule monitors the project across this entire lifecycle.
+- **Agent rule:** Agents should monitor stage progress and help responsible people obtain the required items to advance stages.
+- **Date:** 2026-08-12
+
+### D-020 — Due diligence is contractual; Procore has schedule + deadline dates
+- **Decision:** Due diligence starts on receipt of the PI letter (PSA effective DD date) and runs as a contractual period (often ~90 days), not just an internal schedule.
+- **Required DD package includes:** survey, boundary topo, tree survey, full ALTA, title/easements, traffic report, environmental report, geotech, Phase 1, and client sign-off by DD end.
+- **Extensions require** a fully executed contract amendment.
+- **Procore rule:** track both working schedule dates for each required item and the contractual deadline date.
+- **Date:** 2026-08-12
+
+### D-021 — Government approvals is a contractual permitting stage
+- **Decision:** Government approvals starts with the written contractual move-forward letter and runs on a contractual timeframe (often ~240 days, variable).
+- **Required outcome:** fully permitted site, including ERP, SDP, off-site permits, FDEP, and any other governing-agency permits.
+- **Work content:** civil engagement/design, architectural + civil drawings, agency/county comment cycles, and permit tracking in Procore.
+- **Agent priority:** high — time-sensitive, complex, needs active guidance/monitoring help.
+- **Date:** 2026-08-12
+
 ### D-001 — Establish Company OS docs as durable memory
 - **Decision:** Store vision, decisions, system map, data model, Drive tree, roadmap, and glossary in `docs/company-os/`.
 - **Why:** Chat threads compress and are not reliable six-month memory.

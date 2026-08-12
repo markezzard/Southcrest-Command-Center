@@ -1,6 +1,6 @@
 # Data Model (v1 draft)
 
-Status: draft from strategy discussions. Refine with real project examples before implementation lock.
+Status: draft refined with Mason Academy Vanderbilt K-8 deep dive.
 
 ## Core entities
 
@@ -84,6 +84,33 @@ Not fully designed. Direction:
 ### Account / School relationship (future)
 Directional need: long-lived school/district relationship spanning multiple leads and projects across both companies.
 
+### Parcel / assemblage (needed from Mason example)
+One project may include multiple parcels and sellers.
+
+Suggested fields:
+- `parcel_id`
+- `project_id`
+- APN / address
+- seller/contact link
+- contract/LOI status
+- assemblage group / rank
+- notes (wetlands, access, estate parcel, etc.)
+
+### Permit register (needed from Mason example)
+Track major permits/conditions under a project/phase:
+- permit type (ERP, SDP, FDEP offsite, construction, etc.)
+- agency
+- status / issued date
+- document link in Drive
+- related offsite obligations (e.g. traffic signal / intersection)
+
+### Outreach / LOI pipeline (Meridian)
+Not full CRM yet, but Project Master should not pretend land search is a single step. Minimum future support:
+- search boundary notes
+- candidate sites
+- outreach attempts across call/email/letter/text
+- LOI/contract status per parcel
+
 ## Project Master workbook (Sheet v1)
 
 Proposed tabs:
@@ -94,11 +121,25 @@ Proposed tabs:
 5. `Client_History`
 6. `Lists` (enums)
 
-## Lifecycle stages (draft enum)
+## Lifecycle stages (authoritative enum)
 
-`Prospecting → Preliminary DD → Under Contract → Due Diligence → Entitlements → Permitting → Permitted/Handoff → Site Development → Construction → Closeout → Turnover → Complete`
+Use owner-defined stages from `LIFECYCLE_SCHOOL_DELIVERY.md`:
 
-Southcrest-only small jobs may use a shorter subset (e.g. pursuit → active work → closeout).
+1. Prospecting  
+2. LOI  
+3. Contract  
+4. Due diligence  
+5. Government approvals  
+6. Handover to GC  
+7. Development  
+8. Vertical construction  
+9. Final inspections and punch-out  
+10. Client turnover  
+11. Warranty  
+
+Each stage has required exit artifacts before advancement. Procore monitors the full lifecycle schedule.
+
+Southcrest-only small jobs may use a shorter subset later; do not invent a different full-school sequence.
 
 ## Matching rules for future email triage
 
