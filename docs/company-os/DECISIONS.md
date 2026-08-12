@@ -23,6 +23,13 @@ Append-only log of locked decisions. Newest first within each section is fine; k
 - **Agent rule:** Agents should monitor stage progress and help responsible people obtain the required items to advance stages.
 - **Date:** 2026-08-12
 
+### D-020 — Due diligence is contractual; Procore has schedule + deadline dates
+- **Decision:** Due diligence starts on receipt of the PI letter (PSA effective DD date) and runs as a contractual period (often ~90 days), not just an internal schedule.
+- **Required DD package includes:** survey, boundary topo, tree survey, full ALTA, title/easements, traffic report, environmental report, geotech, Phase 1, and client sign-off by DD end.
+- **Extensions require** a fully executed contract amendment.
+- **Procore rule:** track both working schedule dates for each required item and the contractual deadline date.
+- **Date:** 2026-08-12
+
 ### D-001 — Establish Company OS docs as durable memory
 - **Decision:** Store vision, decisions, system map, data model, Drive tree, roadmap, and glossary in `docs/company-os/`.
 - **Why:** Chat threads compress and are not reliable six-month memory.

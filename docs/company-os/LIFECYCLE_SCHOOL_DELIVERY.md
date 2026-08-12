@@ -42,12 +42,16 @@ Until those stage-exit requirements are satisfied, the project should not be tre
 
 - Procore contains the schedule that monitors the project **through this whole lifecycle**.
 - Lifecycle is not only a Meridian concept or only a construction concept — it is one continuous staged journey.
+- Many stage requirements have **two date concepts** in Procore:
+  - working **schedule** dates for each required item
+  - a contractual **deadline date**
 - Future agents should use Procore schedule + stage gates together:
   1. know current lifecycle stage
   2. know required artifacts to exit that stage
   3. monitor schedule/email/docs for missing or at-risk items
-  4. assist the responsible people in getting those items done
-  5. help the project advance cleanly to the next stage
+  4. distinguish work-schedule risk from contractual-deadline risk
+  5. assist the responsible people in getting those items done
+  6. help the project advance cleanly to the next stage
 
 ## Agent responsibility (directional)
 
@@ -127,7 +131,41 @@ Fully executed purchase and sale agreement (contract).
 - For assemblage deals, confirm later whether each parcel needs its own fully executed PSA before project-level advancement.
 
 ### 4) Due diligence → Government approvals
-TBD
+
+**Stage window:**  
+Starts when the **PI letter** is received. Per the PSA, this is the effective start of due diligence and may differ from the contract date.  
+Ends when the contractual due diligence period is completed with required deliverables done and signed off by the client (or properly amended and then completed).
+
+**First requirement:**  
+Obtain the PI letter so due diligence formally starts.
+
+**Nature of the stage:**  
+Due diligence is a **contractual period of time**, typically about **90 days** — not merely an internal schedule preference.
+
+**Required deliverables during DD:**
+1. Survey
+2. Boundary topo
+3. Tree survey
+4. Full ALTA
+5. Title work (including easements and related title items)
+6. Traffic report
+7. Environmental report
+8. Geotechnical report
+9. Phase 1
+10. Client sign-off on the required items by the end of due diligence
+
+**If timing slips:**  
+A **contract amendment** must be prepared and **fully executed**, because the due diligence period is contractual.
+
+**Exit trigger / completion artifact:**  
+Contractual DD period completed with required DD package done and client-signed-off; any needed DD extension amendment fully executed before relying on extra time.
+
+**Procore monitoring note (critical):**  
+Procore schedules for these items include both:
+1. **Schedule dates** — working dates for each required item so the team can finish on time
+2. **Deadline date** — the contractual due diligence deadline
+
+Agents and humans must watch both. Hitting an internal work date is not enough if the contractual deadline is missed without an executed amendment.
 
 ### 5) Government approvals → Handover to GC
 TBD
@@ -160,7 +198,6 @@ Project Master should store at least:
 ## Open work
 
 Define remaining stage-exit requirements for:
-4. Due diligence
 5. Government approvals
 6. Handover to GC
 7. Development
@@ -168,3 +205,5 @@ Define remaining stage-exit requirements for:
 9. Final inspections and punch-out
 10. Client turnover
 11. Warranty
+
+Also clarify acronym: exact meaning/title of the **PI letter**.

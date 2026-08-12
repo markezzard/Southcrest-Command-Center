@@ -14,6 +14,10 @@
 | **Handoff** | Transition from Meridian permitted package into Southcrest execution |
 | **LOI** | Letter of Intent — outline of deal terms; stage ends when buyer and seller have fully executed it |
 | **PSA / Contract** | Purchase and Sale Agreement — preferred-form contract negotiated from LOI terms; stage ends when fully executed |
+| **PI letter** | Letter that starts the contractual due diligence period under the PSA; DD effective date may differ from contract date (confirm full name/acronym) |
+| **Contractual deadline date** | In Procore, the hard contract-driven date for a stage/item, distinct from working schedule dates |
+| **ALTA** | Full ALTA survey deliverable required during due diligence |
+| **Phase 1** | Phase I environmental assessment / related DD environmental deliverable signed off in DD package |
 | **Shadow mode** | Agent proposes actions for human review without autonomous external side effects |
 | **Clean DB** | Future blended operational database across identity, docs index, Procore, email facts |
 | **Hub thread** | Pinned strategy conversation for direction and roadmap |

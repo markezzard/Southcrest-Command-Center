@@ -22,3 +22,5 @@ Track unresolved design questions here. Move answers into `DECISIONS.md` when lo
 18. What are the required exit artifacts for each official lifecycle stage (Prospecting through Warranty)?
 19. Who is the accountable human owner for each stage gate on a typical project?
 20. In Procore today, are these lifecycle stages already explicit schedule milestones/phases, or do we need to standardize that structure?
+21. What is the exact full name/meaning of the PI letter that starts due diligence?
+22. Is Due Diligence project-complete only when every parcel in an assemblage has its DD package/sign-off, or is advancement tracked per parcel?
