@@ -103,7 +103,28 @@ Fully executed LOI (buyer + seller signatures).
 - For assemblage deals, confirm later whether each parcel needs its own executed LOI before the project advances, or whether stage tracking is parcel-level.
 
 ### 3) Contract → Due diligence
-TBD
+
+Also called: **PSA / Purchase and Sale Agreement** stage.
+
+**Stage window:**  
+Starts with a fully executed LOI (which outlines the terms for the contract/PSA).  
+Ends with a **fully executed contract/PSA**.
+
+**Exit trigger / completion artifact:**  
+Fully executed purchase and sale agreement (contract).
+
+**What happens in this stage:**
+1. Enter from executed LOI.
+2. Send preferred form contract with LOI terms placed into it.
+3. Negotiate and redline back and forth to reach the final contract.
+4. Execute the final contract/PSA.
+
+**Required before leaving Contract:**
+1. Fully executed contract/PSA.
+
+**Notes:**
+- LOI is the outline; PSA/contract is the binding deal instrument for this gate.
+- For assemblage deals, confirm later whether each parcel needs its own fully executed PSA before project-level advancement.
 
 ### 4) Due diligence → Government approvals
 TBD
