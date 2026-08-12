@@ -198,7 +198,6 @@ Project Master should store at least:
 ## Open work
 
 Define remaining stage-exit requirements for:
-5. Government approvals
 6. Handover to GC
 7. Development
 8. Vertical construction
@@ -206,4 +205,6 @@ Define remaining stage-exit requirements for:
 10. Client turnover
 11. Warranty
 
-Also clarify acronym: exact meaning/title of the **PI letter**.
+Also clarify:
+- exact meaning/title of the **PI letter**
+- exact name/title of the **written move-forward letter** that starts government approvals

@@ -12,6 +12,7 @@ Phase 0 docs foundation is in place. Now pressure-testing the identity model wit
 - 2026-08-12: Defined LOI exit gate (executed LOI signed by buyer and seller).
 - 2026-08-12: Defined Contract/PSA exit gate (fully executed purchase and sale agreement after form send + redline negotiation).
 - 2026-08-12: Defined Due Diligence gate (starts on PI letter; contractual ~90-day package with client sign-off; Procore schedule vs deadline dates).
+- 2026-08-12: Defined Government Approvals gate (starts on written move-forward letter; ~240-day class contractual period; full permit package including ERP/SDP/FDEP/off-site).
 
 ## Intended build order
 

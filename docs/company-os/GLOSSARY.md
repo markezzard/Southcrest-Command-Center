@@ -18,6 +18,10 @@
 | **Contractual deadline date** | In Procore, the hard contract-driven date for a stage/item, distinct from working schedule dates |
 | **ALTA** | Full ALTA survey deliverable required during due diligence |
 | **Phase 1** | Phase I environmental assessment / related DD environmental deliverable signed off in DD package |
+| **ERP** | Environmental Resource Permit — state-agency permit required in government approvals |
+| **SDP** | Site Development Permit — local site development permit required in government approvals |
+| **FDEP permit** | Florida Department of Environmental Protection related permit required as applicable in government approvals |
+| **Government approvals period** | Contractual permitting timeframe after written move-forward notice; often ~240 days, varies by expected permitting duration |
 | **Shadow mode** | Agent proposes actions for human review without autonomous external side effects |
 | **Clean DB** | Future blended operational database across identity, docs index, Procore, email facts |
 | **Hub thread** | Pinned strategy conversation for direction and roadmap |
