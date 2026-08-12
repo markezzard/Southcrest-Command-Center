@@ -11,6 +11,7 @@
 | **Procore** | Schedules and project tracking from prospecting/preliminary DD through turnover | Long-lifecycle operational schedule spine |
 | **Meridian App (custom)** | Custom tasks and project management for Meridian work | BD/deal/task layer; identity consumer/producer |
 | **This repo (`Southcrest-Command-Center`)** | Early home for Company OS | Agent instructions, apps, integrations, clean DB over time |
+| **Owner Assistant (planned)** | Not live | Mark's personal brief/propose loop on Calendar + Gmail + owner tasks |
 
 ## Source-of-truth leanings (v1)
 
@@ -22,6 +23,7 @@
 | Construction/site schedules | Procore |
 | Meridian tasks / BD workflow | Meridian App |
 | Agent operating brain | Git docs in `docs/company-os/` |
+| Mark's personal attention / owner tasks | Owner Assistant brief (v0); Google Tasks proposed for v1 — not locked |
 
 ## Join keys
 
@@ -56,6 +58,12 @@ Meridian App
 Drive
   ↔ Project folders
   ↔ Project Master folder IDs
+
+Owner Assistant (Mark only; not live)
+  ← Google Calendar (read)
+  ← Gmail (Mark's inbox, including employee copies as a sensor)
+  → Daily brief + drafts for approval
+  → Owner-level tasks (SoT TBD)
 ```
 
 ## Companies and shared functions

@@ -18,6 +18,8 @@ Examples of the end state:
 - A **BD agent** supports lead generation for both companies and relationship continuity with schools/districts.
 - An **executive agent** briefs ownership on stalled deals, permit risk, schedule slips, and attention needed.
 
+**Owner Assistant is a separate, earlier layer:** Mark's personal EA (inbox attention, calendar, owner-level tasks) as Phase 0.5. It is not the executive agent and not a rollout of employee agents. See [`OWNER_ASSISTANT.md`](./OWNER_ASSISTANT.md).
+
 ## Operating philosophy
 
 1. **Foundation before autonomy** — Project identity, Drive discipline, email resolution, Procore sync, and a clean database come before unsupervised action.
@@ -25,6 +27,7 @@ Examples of the end state:
 3. **Systems Analyst → builders** — Capture intent and sources, define charters, then spawn focused builder/data agents one slice at a time.
 4. **Shared data spine, personal agent UI** — Company systems of record first; employee agents are configured views/workers on top of that spine.
 5. **Repo docs are long-term memory** — Important decisions live here, not only in chat.
+6. **Owner Assistant is the one early personal exception** — Mark's brief/propose loop may start before the spine exists. Staff personal agents may not.
 
 ## Dual BD funnel (high level)
 
@@ -41,3 +44,4 @@ One school relationship may generate Southcrest work now and Meridian expansion 
 - Emails and attachments are reviewed, classified, and filed with provenance.
 - Procore schedules remain the long lifecycle operational timeline (often 3–5 years, sometimes 10+ with phases).
 - Employees receive trustworthy short lists of what matters, not noisy autonomous churn.
+- The owner gets a short daily brief (calendar, needs-you, waiting, drafts) without drowning in employee-copy mail.

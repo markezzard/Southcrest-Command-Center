@@ -14,9 +14,10 @@ Chat threads are working sessions. These docs are the source of truth that futur
 | [DATA_MODEL.md](./DATA_MODEL.md) | Project Master, phases, aliases, clients, accounts |
 | [DRIVE_TREE.md](./DRIVE_TREE.md) | Google Drive taxonomy |
 | [ROADMAP.md](./ROADMAP.md) | Build order and current phase |
+| [OWNER_ASSISTANT.md](./OWNER_ASSISTANT.md) | Mark's personal assistant charter (Phase 0.5) |
 | [GLOSSARY.md](./GLOSSARY.md) | Shared terms |
 | [OPEN_QUESTIONS.md](./OPEN_QUESTIONS.md) | Unresolved items to pressure-test later |
 
 ## Update rule
 
-Any thread or agent that changes vision, decisions, schema, systems, Drive structure, or roadmap **must update the relevant files here** before considering the work done.
+Any thread or agent that changes vision, decisions, schema, systems, Drive structure, roadmap, or agent charters **must update the relevant files here** before considering the work done.

@@ -9,4 +9,7 @@ Command center repository for **Meridian Land** and **Southcrest Management** Co
 
 ## Current focus
 
-Phase 0 — establish the Company OS documentation and operating model before building live automations.
+- Phase 0 — Company OS documentation and operating model
+- Phase 0.5 — Owner Assistant charter for Mark (docs only; no live automations until he says so)
+
+See [`docs/company-os/OWNER_ASSISTANT.md`](docs/company-os/OWNER_ASSISTANT.md).

@@ -5,7 +5,7 @@ Append-only log of locked decisions. Newest first within each section is fine; k
 ## Process and memory
 
 ### D-001 — Establish Company OS docs as durable memory
-- **Decision:** Store vision, decisions, system map, data model, Drive tree, roadmap, and glossary in `docs/company-os/`.
+- **Decision:** Store vision, decisions, system map, data model, Drive tree, roadmap, glossary, and agent charters (including Owner Assistant) in `docs/company-os/`.
 - **Why:** Chat threads compress and are not reliable six-month memory.
 - **Date:** 2026-08-12
 
@@ -29,11 +29,28 @@ Append-only log of locked decisions. Newest first within each section is fine; k
 - **Why:** Land + construction errors are expensive and long-lived.
 - **Date:** 2026-08-12
 
+## Owner Assistant
+
+### D-020 — Owner Assistant is a parallel personal track
+- **Decision:** Mark's Owner Assistant (Phase 0.5) may be chartered — and later run in brief/propose mode — without waiting for Project Master or employee agents. Scope is **his** assistant, not a rollout of agents for everyone.
+- **Why:** He already receives all employee sent/received copies; calendar + inbox + owner tasks are useful immediately. Employee agents still need the company data spine.
+- **Date:** 2026-08-12
+
+### D-021 — Owner Assistant stays drafts-only until a capability is granted in the charter
+- **Decision:** OA may read, classify, and propose. It may not send email, mutate calendar, file Drive, write Meridian App/Procore, or spawn agents until Mark grants that capability in `OWNER_ASSISTANT.md`.
+- **Why:** Same as D-005. Trust is earned per action type.
+- **Date:** 2026-08-12
+
+### D-022 — Keep Owner Assistant, company email triage, and executive briefing as three layers
+- **Decision:** (1) Owner Assistant = Mark's personal EA (inbox attention, calendar, owner-level tasks). (2) Company Email Triage = Phase 3 shared agent after Project Master, shadow mode, filing + provenance. (3) Executive / role agent = Phase 6 company rollup. OA may later feed (3); it must not impersonate (2).
+- **Why:** Mixing them either delays the personal loop or skips identity work required for company filing.
+- **Date:** 2026-08-12
+
 ## Identity and data foundation
 
 ### D-010 — Start with Project Master before email triage
-- **Decision:** Build Project Master (identity layer) first.
-- **Why:** Email triage requires stable project resolution.
+- **Decision:** Build Project Master (identity layer) first. This gates **company** email triage and filing (Phase 3), not Mark's Owner Assistant attention loop (D-020).
+- **Why:** Company filing requires stable project resolution. OA personal triage does not file.
 - **Date:** 2026-08-12
 
 ### D-011 — Project-centric Drive tree (not client-centric)
@@ -69,11 +86,16 @@ Append-only log of locked decisions. Newest first within each section is fine; k
 ## Deferred (directionally agreed, not fully designed)
 
 ### D-100 — Future employee agents
-- **Direction:** After clean shared data exists, create role agents (superintendent, PM, etc.), then personal instances per employee.
+- **Direction:** After clean shared data exists, create role agents (superintendent, PM, etc.), then personal instances per employee. Mark's Owner Assistant is not the template for that rollout.
 - **Not decided yet:** exact permissions, notification channels, photo QA workflow details.
 - **Date:** 2026-08-12
 
 ### D-101 — Future Account / School Relationship object
 - **Direction:** Likely need an account/school layer above projects for BD and long-term relationship continuity.
 - **Not decided yet:** schema and Drive representation.
+- **Date:** 2026-08-12
+
+### D-102 — Employee-copy mail as a sensor (Owner Assistant)
+- **Direction:** OA should split mail **to Mark** from **employee copies**. Copies default to delegated/noise; promote only on the attention filter or hard classes (legal, LOI, money, municipal/political, client-facing from Mark).
+- **Not decided yet:** how aggressive a daily digest of active jobs from copies should be.
 - **Date:** 2026-08-12
