@@ -85,7 +85,22 @@ Draft LOI has been sent out to the client.
 > Clarification pending if needed: in land deals the LOI often goes to the seller; owner described the completion event as sending the draft LOI to the “client.” Confirm whether that means seller, school client, or both.
 
 ### 2) LOI → Contract
-TBD
+
+**Stage window:**  
+Starts when the draft LOI has been sent.  
+Ends when there is an **executed LOI** signed by both buyer and seller.
+
+**Exit trigger / completion artifact:**  
+Fully executed LOI (buyer + seller signatures).
+
+**Required before leaving LOI:**
+1. Draft LOI sent (entry from Prospecting).
+2. LOI negotiated as needed.
+3. LOI executed — signed by both buyer and seller.
+
+**Notes:**
+- Owner stated this is all that is required in this stage.
+- For assemblage deals, confirm later whether each parcel needs its own executed LOI before the project advances, or whether stage tracking is parcel-level.
 
 ### 3) Contract → Due diligence
 TBD
@@ -124,7 +139,6 @@ Project Master should store at least:
 ## Open work
 
 Define remaining stage-exit requirements for:
-2. LOI
 3. Contract
 4. Due diligence
 5. Government approvals
