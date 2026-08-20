@@ -5,6 +5,8 @@
 **Phase 0 — Company OS foundation (docs + operating model)**  
 In progress. Capture vision, decisions, systems, data model, Drive tree, and agent working agreements.
 
+**Directed slice (2026-08-20):** V1 Business Development lead-capture app at `apps/business-development/`, reading and writing SPI Relationship Master. This does not replace Phase 1 Project Master identity work and does not mint SC codes.
+
 ## Intended build order
 
 ### Phase 1 — Project Master identity
@@ -33,7 +35,8 @@ In progress. Capture vision, decisions, systems, data model, Drive tree, and age
 - Store email-derived facts with source IDs
 
 ### Phase 5 — Meridian / Southcrest workflow agents
-- BD lead vs project promotion flows
+- BD V1 app shipped as a directed slice; later: AI summaries, trip optimizer, richer workbench
+- BD lead vs project promotion flows (human gate on the jobs book; not auto from the BD app)
 - Diligence / entitlements package helpers
 - Handoff package Meridian → Southcrest
 - Southcrest ops helpers on schedule variance / missing docs

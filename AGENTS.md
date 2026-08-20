@@ -37,3 +37,5 @@ Also read any topic-specific docs you are touching (`DATA_MODEL.md`, `DRIVE_TREE
 ## Current phase
 
 Phase 0: establish and maintain Company OS documentation. Implementation of Project Master and live integrations comes next only when the user directs it.
+
+Directed slice: `apps/business-development/` is the V1 BD lead-capture app. Store is SPI Relationship Master only. Do not mint SC codes or write Project Master from that app.

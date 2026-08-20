@@ -4,7 +4,7 @@ Track unresolved design questions here. Move answers into `DECISIONS.md` when lo
 
 1. What is the canonical project code format (`PRJ-####`, district-based, site-based, other)?
 2. For multi-phase schools, is Procore always phase-level, sometimes parent-level, or mixed today?
-3. When does a BD lead become a Project row in practice (spend threshold, site under review, first external docs, etc.)?
+3. When does a BD lead become a Project row in practice (spend threshold, site under review, first external docs, etc.)? *Partial lock 2026-08-20: the BD app never auto-creates SC / Project Master rows. Promotion stays a human gate on the existing jobs book.*
 4. How should Southcrest-only remodel/maintenance jobs be coded relative to future Meridian expansion at the same school?
 5. What is the current Meridian App identity key, and can it be stably joined to Procore IDs today?
 6. Is there an existing Drive structure that must be migrated, or can v1 start clean for new projects first?

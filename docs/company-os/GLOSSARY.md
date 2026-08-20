@@ -10,7 +10,10 @@
 | **Phase** | Distinct delivery segment under a parent project |
 | **Alias** | Alternate name/ID/token used to match emails and systems to a project/phase |
 | **Lead** | BD pursuit/relationship work not yet (or not necessarily) a Project |
-| **Account / School relationship** | Future long-lived relationship object spanning leads and projects |
+| **REL / Relationship** | Long-lived school or operator record on SPI Relationship Master. Stays open when jobs close |
+| **Opportunity** | A REL pursuit with no `SC-####` yet. Never minted as a job by the BD app |
+| **SPI Relationship Master** | Google Sheet in `01_Project Controls` that is the BD / relationship store |
+| **Business Development** | Shared role serving Meridian and Southcrest. Used as the owner role name in the BD app |
 | **Handoff** | Transition from Meridian permitted package into Southcrest execution |
 | **Shadow mode** | Agent proposes actions for human review without autonomous external side effects |
 | **Clean DB** | Future blended operational database across identity, docs index, Procore, email facts |

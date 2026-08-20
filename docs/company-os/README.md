@@ -16,6 +16,7 @@ Chat threads are working sessions. These docs are the source of truth that futur
 | [ROADMAP.md](./ROADMAP.md) | Build order and current phase |
 | [GLOSSARY.md](./GLOSSARY.md) | Shared terms |
 | [OPEN_QUESTIONS.md](./OPEN_QUESTIONS.md) | Unresolved items to pressure-test later |
+| [BD_LEAD_CAPTURE.md](./BD_LEAD_CAPTURE.md) | BD field app + SPI Relationship Master store |
 
 ## Update rule
 
