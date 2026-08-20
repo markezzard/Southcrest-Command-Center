@@ -1,0 +1,74 @@
+@import "tailwindcss";
+
+@theme inline {
+  --font-sans: var(--font-body), "Source Sans 3", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: var(--font-display), Fraunces, ui-serif, Georgia, serif;
+}
+
+:root {
+  --ink: #14202e;
+  --ink-soft: #3c4a5a;
+  --paper: #f4efe6;
+  --paper-2: #ebe3d4;
+  --navy: #17324d;
+  --navy-2: #0f2438;
+  --copper: #b56a3a;
+  --copper-2: #8c4d28;
+  --forest: #2f5d4a;
+  --amber: #b8862a;
+  --rose: #9a3f3f;
+  --line: rgba(20, 32, 46, 0.12);
+}
+
+html,
+body {
+  background: var(--paper);
+  color: var(--ink);
+}
+
+body {
+  min-height: 100vh;
+  background-image:
+    radial-gradient(1200px 500px at 10% -10%, rgba(181, 106, 58, 0.08), transparent 50%),
+    linear-gradient(180deg, #f7f2ea 0%, #f4efe6 40%, #efe7d8 100%);
+}
+
+a {
+  color: inherit;
+}
+
+.chip {
+  display: inline-flex;
+  align-items: center;
+  border-radius: 999px;
+  padding: 0.15rem 0.6rem;
+  font-size: 0.72rem;
+  font-weight: 650;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.chip-active {
+  background: rgba(47, 93, 74, 0.14);
+  color: var(--forest);
+}
+
+.chip-hold {
+  background: rgba(184, 134, 42, 0.16);
+  color: #7a5610;
+}
+
+.chip-target {
+  background: rgba(23, 50, 77, 0.1);
+  color: var(--navy);
+}
+
+.chip-dormant {
+  background: rgba(60, 74, 90, 0.1);
+  color: var(--ink-soft);
+}
+
+.chip-overdue {
+  background: rgba(154, 63, 63, 0.12);
+  color: var(--rose);
+}

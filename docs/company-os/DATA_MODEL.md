@@ -75,14 +75,22 @@ Important properties:
 - start/end dates
 - reason (`Dropped site`, `Sold to new client`, `Awarded`, etc.)
 
-### Lead / BD record (future detail)
-Not fully designed. Direction:
-- Shared BD produces leads for Meridian expansion and Southcrest remodel/maintenance/positioning.
-- Leads are not automatically Projects.
-- Promote to Project when identity/docs/email matching need a stable home.
+### Lead / BD record
+Shared BD produces leads for Meridian expansion and Southcrest remodel/maintenance/positioning. Leads are not automatically Projects.
 
-### Account / School relationship (future)
-Directional need: long-lived school/district relationship spanning multiple leads and projects across both companies.
+V1 capture writes a REL row (and related campus/contact/task/activity/opportunity rows) on SPI Relationship Master. Promotion to an `SC-####` / Project Master row is a separate human gate on the jobs book.
+
+### Account / School relationship
+Canonical object is a **REL** on SPI Relationship Master.
+
+Live Relationships headings (verified 2026-08-20):  
+`REL Code`, `Organization Name`, `Type`, `Relationship Status`, `Relationship Owner Role`, `Relationship Owner Name`, `Protected`, `Lead Source`, `Relationship Strength`, `Last Meaningful Contact`, `Next Action`, `Next Action Date`, `Notes`, `Created Date`.
+
+Related tabs: Campuses, Contacts, Contact Links, Ownership, Opportunities, REL Tasks, Activities. Jobs are read by `REL Code` and are not written by the BD app.
+
+Status set for V1: Target, Prospect, Developing Relationship, Active Client, On Hold, Dormant.  
+Lead sources: BD-generated, Company-generated.  
+Types observed live: CMO, Operator, School, Other (Board / District / Developer scaffolded).
 
 ## Project Master workbook (Sheet v1)
 

@@ -11,6 +11,8 @@
 | **Procore** | Schedules and project tracking from prospecting/preliminary DD through turnover | Long-lifecycle operational schedule spine |
 | **Meridian App (custom)** | Custom tasks and project management for Meridian work | BD/deal/task layer; identity consumer/producer |
 | **This repo (`Southcrest-Command-Center`)** | Early home for Company OS | Agent instructions, apps, integrations, clean DB over time |
+| **SPI Relationship Master** | School/operator relationship workbook in `01_Project Controls` | Source of truth for BD relationships, campuses, contacts, REL tasks, activities, opportunities, and related SC jobs |
+| **BD lead-capture app** (`apps/business-development/`) | V1 field workbench + lead capture | Role-native UI on Relationship Master. Does not mint SC codes |
 
 ## Source-of-truth leanings (v1)
 
@@ -21,6 +23,7 @@
 | Email content | Gmail |
 | Construction/site schedules | Procore |
 | Meridian tasks / BD workflow | Meridian App |
+| School / operator relationships, BD leads, REL tasks | SPI Relationship Master |
 | Agent operating brain | Git docs in `docs/company-os/` |
 
 ## Join keys
